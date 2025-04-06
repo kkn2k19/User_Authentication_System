@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 @EnableJpaRepositories(basePackages = "com.kkn")
 @EntityScan(basePackages = "com.kkn")
 @EnableMethodSecurity
+
 public class AuthdemoApplication {
 
 	public static void main(String[] args) {
